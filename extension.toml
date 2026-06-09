@@ -4,18 +4,12 @@ version = "0.8.1"
 schema_version = 1
 authors = ["iwlab <jerome@iwlab.org>"]
 description = "Syntax highlighting for the Smarty template language (PrestaShop .tpl)"
-repository = "https://github.com/iwlab/zed-smarty"
+repository = "https://github.com/iwlabdev-coder/zed-smarty"
 
 # Forked & extended Smarty grammar (header variables, {assign}/{l} tags,
-# string nodes, escaped quotes).
-#
-# STANDALONE (recommended): push the tree-sitter-smarty repo to GitHub once,
-# then use the https URL below (the rev SHA does NOT change when you push).
-# The extension then needs no local grammar folder.
-#   repository = "https://github.com/iwlab/tree-sitter-smarty"
-#
-# LOCAL (no GitHub): keep the file:// line, extract the grammar repo to that
-# exact path (keep its .git folder), edit the path if you put it elsewhere.
+# string nodes, escaped quotes). Hosted standalone on GitHub: Zed clones it at
+# the pinned rev and compiles it at install time — no local grammar folder is
+# used. To update: push the new commit, then bump `rev` below to its SHA.
 [grammars.smarty]
 repository = "https://github.com/iwlabdev-coder/tree-sitter-smarty"
 rev = "32f1e0c8750a0638c6621bda6d4e1300f70b680b"

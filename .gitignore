@@ -1,0 +1,12 @@
+# Local grammar working copies — NOT used by Zed.
+# Zed clones the grammars from the [grammars.*] repository/rev in extension.toml
+# and compiles them itself. These folders are dev-only working copies.
+/grammars/smarty/
+/grammars/php_only/
+
+# Compiled grammar artifacts — Zed builds these itself at install time.
+/grammars/*.wasm
+
+# Editor / OS noise
+.DS_Store
+*.swp

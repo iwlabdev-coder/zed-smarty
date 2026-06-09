@@ -21,7 +21,7 @@ gérer de dossier de grammaire local, héberge-la sur GitHub (une fois) :
 
 ```
 cd tree-sitter-smarty
-git remote add origin https://github.com/iwlabdev-coderdev-coder/tree-sitter-smarty.git
+git remote add origin https://github.com/iwlabdev-coder/tree-sitter-smarty.git
 git push -u origin main      # le SHA du commit ne change pas
 ```
 
@@ -30,7 +30,7 @@ Puis, dans `extension.toml`, remplace la ligne `repository` par l'URL https
 
 ```toml
 [grammars.smarty]
-repository = "https://github.com/iwlabdev-coderdev-coder/tree-sitter-smarty"
+repository = "https://github.com/iwlabdev-coder/tree-sitter-smarty"
 rev = "32f1e0c8750a0638c6621bda6d4e1300f70b680b"
 ```
 
