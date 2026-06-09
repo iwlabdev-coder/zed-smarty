@@ -1,0 +1,6 @@
+# Hidden helper language: NOT bound to any file suffix, used only as an
+# injection target for Smarty {expressions}. It will show up in the
+# "Select Language" picker (Zed has no documented way to hide it), which
+# is harmless.
+name = "smarty-php"
+grammar = "php_only"

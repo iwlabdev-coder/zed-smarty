@@ -1,0 +1,12 @@
+name = "Smarty"
+grammar = "smarty"
+path_suffixes = ["tpl"]
+block_comment = ["{* ", " *}"]
+autoclose_before = "}>\"')"
+brackets = [
+  { start = "{", end = "}", close = true, newline = false },
+  { start = "<", end = ">", close = false, newline = false },
+  { start = "\"", end = "\"", close = true, newline = false },
+  { start = "'", end = "'", close = true, newline = false },
+]
+tab_size = 2
