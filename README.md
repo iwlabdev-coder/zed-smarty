@@ -1,4 +1,4 @@
-# Zed Smarty (v0.6.0)
+# Zed Smarty (v0.8.1)
 
 Coloration syntaxique Smarty (`.tpl`) pour Zed, pensée PrestaShop.
 Cette version utilise une **grammaire Smarty étendue** (fork) qui colore enfin
